@@ -1,0 +1,25 @@
+.card {
+  width: auto;
+  padding: 1em;
+  border-radius: 16px;
+  background-color: #fff;
+  box-shadow: 2px 8px 2.5em #1f325118;
+}
+
+.img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  padding: 1.2em 0 1.8em;
+}
+
+@media (min-width: 375px) {
+  .card {
+    max-width: 310px;
+  }
+}
